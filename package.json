@@ -1,0 +1,30 @@
+{
+  "name": "eth-wallet",
+  "version": "1.0.0",
+  "description": "a simple eth wallet",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alifakoor/eth-wallet.git"
+  },
+  "keywords": [
+    "eth",
+    "wallet",
+    "node"
+  ],
+  "author": "alifakoor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alifakoor/eth-wallet/issues"
+  },
+  "homepage": "https://github.com/alifakoor/eth-wallet#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "web3": "^1.6.0"
+  }
+}
