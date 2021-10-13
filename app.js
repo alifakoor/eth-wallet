@@ -1,6 +1,5 @@
 // depencies
 const express = require("express")
-const bodyParser = require("body-parser")
 const cors = require("cors")
 
 // consts
@@ -9,9 +8,9 @@ const PORT = process.env.PORT || 1414
 const app = express()
 
 // uses
+app.use(express.json())
 app.use(express.static(path))
-app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({ extended: true }))
+app.use(express.urlencoded({ extended: true }))
 
 // routes
 app.get('/', (req, res) => {
